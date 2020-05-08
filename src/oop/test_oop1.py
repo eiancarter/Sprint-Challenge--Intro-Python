@@ -7,8 +7,8 @@ class Oop1Tests(unittest.TestCase):
     self.flight_vehicle = FlightVehicle()
     self.ground_vehicle = GroundVehicle()
     self.car = Car()
-    self.motorcycle = Motorcycle()
-    self.starship = Starship()
+    self.motorcycle = Motorcycle()  
+    self.starship = Starship() 
     self.airplane = Airplane()
 
   def test_flight_vehicle(self):
@@ -22,7 +22,7 @@ class Oop1Tests(unittest.TestCase):
   def test_starship(self):
     self.assertTrue(isinstance(self.starship, Starship))
     self.assertTrue(isinstance(self.starship, FlightVehicle))
-    self.assertTrue(isinstance(self.starship, Vehicle))
+    self.assertTrue(isinstance(self.starship, Vehicle)) 
 
   def test_airplane(self):
     self.assertTrue(isinstance(self.airplane, Airplane))
