@@ -1,9 +1,9 @@
-import unittest
+import unittest 
 from oop2 import *
 
 class Oop2Tests(unittest.TestCase):
   def setUp(self):
-    self.ground_vehicle = GroundVehicle()
+    self.ground_vehicle = GroundVehicle() 
     self.motorcycle = Motorcycle()
 
   def test_motorcycle_inheritance(self):
